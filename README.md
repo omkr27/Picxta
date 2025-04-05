@@ -65,7 +65,7 @@ Picxta is a photo curation application that allows users to search for images us
 - `GET /api/photos/search?query=<keyword>` - Search for images on Unsplash
 - `POST /api/photos` - Save an image
 - `POST /api/photos/:photoId/tags` - Add tags to an image
-- `GET /api/photos/tag/search?tags=<tag>` - Search images by tag
+- `GET /api/photos/tag/search?tags=<tag>&sort=ASC&userId=1` - Search saved images by tag, sorted by dateSaved (ASC/DESC)
 
 ### Search History Routes
 
